@@ -1,0 +1,4 @@
+{
+    "USER_JWT_SECRET": "It's a secret",
+    "USER_JWT_LIFE": "86400000"
+}
