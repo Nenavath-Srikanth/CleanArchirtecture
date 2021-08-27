@@ -1,0 +1,39 @@
+{
+  "name": "vendor_partner_module",
+  "version": "1.0.0",
+  "description": "Vendor and partner registration, document upload, send notification,web hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev-server": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "author": "Sumit Chauhan",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@azure/storage-blob": "^12.0.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.0.1",
+    "nodemailer": "^6.6.3",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^5.21.2",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.0"
+  }
+}

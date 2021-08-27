@@ -1,0 +1,154 @@
+<!-- Invoice -->
+<style>
+    .invoice {
+      background: #fff;
+      padding: 30px;
+      margin: 15px;
+      box-shadow: 0 1rem 2rem rgba(0,0,0,.09)!important;
+    }
+    .in-header {
+      background: #F5F5F5;
+      border-bottom: 1px solid #E5E5E5;
+      padding: 30px;
+    }
+    .in-header p,
+    .in-address p {
+      line-height: 1.8;
+    }
+    .in-header p span {
+      color: grey;
+    }
+    .in-address,
+    .in-price {
+      border-bottom: 1px solid #E5E5E5;
+      padding: 30px;
+    }
+    .border-none td {
+      border-top: 0 !important;
+    }
+    .bg-grey {
+      background: #E5E5E5;
+    }
+    .kiop th:first-child, .kiop td:first-child {
+      padding-left: 30px !important;
+    }
+    .kiop th:last-child, .kiop td:last-child {
+      padding-right: 30px !important;
+    }
+  </style>
+  <div class="invoice">
+    <h3>Invoice</h3>
+    <div class="row" style="border: 1px solid #E5E5E5; padding: 0; margin: 0;">
+      <div class="col-sm-12 in-header">
+        <div class="col-sm-6">
+          <p>
+            <strong>Invice Number</strong><br>
+            <span>123456</span>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <p class="text-right">
+            <strong>Date</strong><br>
+            <span>20 April, 2021</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-12 in-address">
+        <div class="col-sm-4">
+          <p>
+            <strong>Bill To</strong><br>
+            <span>Ranga Naik, Plot No: 248, Vara Apartment, Road no: 6, Alamsguda, Hyderabad - 38, Telangana, India.</span>
+          </p>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <p>
+            <strong>Bill From</strong><br>
+            <span>Ranga Naik, Plot No: 248, Vara Apartment, Road no: 6, Alamsguda, Hyderabad - 38, Telangana, India.</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-12 in-price">
+        <p style="padding-left: 15px;">
+          <strong>Price Details</strong><br>
+        </p><br>
+        <div class="table-responsive" style="margin: 0 15px !important;     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;">
+          <table class="table table-hover kiop" style="margin-bottom: 0;">
+            <thead style="background: grey; color: white;">
+              <tr>
+                <th>S. No.</th>
+                <th>Item</th>
+                <th>Description</th>
+                <th class="text-right">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Membership Plan</td>
+                <td>365 days consultation</td>
+                <td class="text-right">365.00</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Membership Plan</td>
+                <td>365 days consultation</td>
+                <td class="text-right">365.00</td>
+              </tr>
+              <tr class="bg-grey" style="border-top: 2px solid grey;">
+                <td colspan="2"></td>
+                <td class="text-right">Sub Total</td>
+                <td class="text-right">365.00</td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+                <td class="text-right">Coupon Discount</td>
+                <td class="text-right">- 5.00</td>
+              </tr>
+              <tr class="bg-grey">
+                <td colspan="2"></td>
+                <td class="text-right">Total Amount before tax</td>
+                <td class="text-right">360.00</td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+                <td class="text-right">IGST</td>
+                <td class="text-right">5.00</td>
+              </tr>
+              <tr class="border-none">
+                <td colspan="2"></td>
+                <td class="text-right">CGST</td>
+                <td class="text-right">5.00</td>
+              </tr>
+              <tr class="border-none">
+                <td colspan="2"></td>
+                <td class="text-right">SGST</td>
+                <td class="text-right">5.00</td>
+              </tr>
+              <tr class="border-none" style="border-top: 2px solid grey;">
+                <td colspan="2"></td>
+                <td class="text-right"><strong>Grand Total</strong></td>
+                <td class="text-right"><strong>375.00</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="text-right" style="padding: 50px 20px 0;">
+          <button type="submit" class="btn btn-default btn-sm cmsBtn" style="background: #203F7B; padding-left: 20px; padding-right: 20px;">
+            Proceed
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+
+
+
+
+

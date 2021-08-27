@@ -1,0 +1,21 @@
+{
+    "error": "Error Occured",
+    "not_found": "Resource not Found",
+    "found": "Resource Found",
+    "created": "Resource Created Successfully",
+    "create_failed": "Failed to create Resource",
+    "no_data": "Resource not found in the database",
+    "no_data_id": "Could not find the resource with the given Id",
+    "no_change": "No Changes to be made",
+    "update_success": "Resource Updated Successfully",
+    "delete_success": "Resource Deleted Successfully",
+    "delete_failed": "Resource Deletion Failed",
+    "auth_done": "User Authenticated",
+    "auth_failed": "User Authentication Failed",
+    "activated": "User has been Activated Successfully",
+    "deactivated": "User has been Deactivated Successfully",
+    "activate_fail": "User has been Activated Successfully",
+    "deactivate_fail": "User has been Deactivated Successfully",
+    "no_token": "Failed to Authenticate User. No Token Provided",
+    "unauth_access": "Trying to access protected resource without authorization. Provide valid JWT token for accessing this resource" 
+}
